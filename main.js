@@ -5,7 +5,7 @@
 const iGetTheJoke = true;
 const havingFun = true;
 const learning = true;
-const killingIt = havingFun=== true && learning===true;
+const killingIt = havingFun&& learning;
 
 // functions
 function returnFalse(sttmnt){
