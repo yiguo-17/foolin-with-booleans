@@ -35,8 +35,8 @@ function neither(s1,s2){
   return result = !s1 && !s2 ;
 } 
 function itsComplicated(s1,s2,s3){
-  return result = s1 || (!s2!&& !s3);
-}
+  return result = !s1 || (s2 && s3);
+} 
 
 
 /********************************************************************************************
