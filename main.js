@@ -1,9 +1,42 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+// variables
+const iGetTheJoke = true;
+const havingFun = true;
+const learning = true;
+const killingIt = havingFun=== true && learning===true;
 
+// functions
+function returnFalse(sttmnt){
+  return result = false;
+}
 
+function isOpposite(argue){
+  return result = ! argue;
+}
 
+function both(s1, s2){
+  return result =s1 === s2;
+}
+
+function either (s1, s2){
+  return result = s1 || s2;
+}
+
+function firstOnly(s1,s2){
+  return result = s1 === true && s2=== false;
+}
+
+function secondOnly(s1, s2){
+  return result = s1=== false&& s2 === true;
+}
+function neither(s1,s2){
+  return result = s1 false&& s2 === false;
+}
+function itsComplicated(s1,s2,s3){
+  return result = s1 === true || (s2=== false && s3=== false);
+}
 
 
 /********************************************************************************************
