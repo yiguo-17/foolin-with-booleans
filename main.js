@@ -17,7 +17,7 @@ function isOpposite(argue){
 }
 
 function both(s1, s2){
-  return result =s1 === s2;
+  return result =s1 && s2;
 }
 
 function either (s1, s2){
@@ -25,17 +25,17 @@ function either (s1, s2){
 }
 
 function firstOnly(s1,s2){
-  return result = s1 === true && s2=== false;
+  return result = s1 && !s2;
 }
 
 function secondOnly(s1, s2){
-  return result = s1=== false&& s2 === true;
+  return result = !s1&& s2;
 }
 function neither(s1,s2){
-  return result = s1 false&& s2 === false;
-}
+  return result = !s1 && !s2 ;
+} 
 function itsComplicated(s1,s2,s3){
-  return result = s1 === true || (s2=== false && s3=== false);
+  return result = s1 || (!s2!&& !s3);
 }
 
 
