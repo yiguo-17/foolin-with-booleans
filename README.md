@@ -19,7 +19,7 @@ divingIntoBooleans = true;
 
 ![programmer joke: !false (it's funny because it's true)](https://storage.googleapis.com/replit/images/1569512326719_407dad6e2667dc94c76a8c0bcc18e25d.jpeg)
 
-Let's make some `booleans`! **With `const`, if you please**...
+Let's make some `booleans`!
 
 * Create a variable named `iGetTheJoke` and set it equal to a boolean value that corresponds to whether or not the above joke is awesome.
 * Create a variable called `havingFun` that holds the boolean value that corresponds to whether or not you are. In general, if not in this exercise. 
